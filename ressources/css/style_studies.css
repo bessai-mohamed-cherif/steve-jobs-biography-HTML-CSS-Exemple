@@ -1,0 +1,65 @@
+html {
+	box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0,0,0,0.4)), url(img/presentation_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.presentation_header{
+    background-image: none;
+    background-color: #000;
+    height: auto;
+    padding-bottom: 5%;
+    
+}
+
+.presentation_section{
+    padding-top: 5%;
+}
+
+h2{
+    color: #fff;
+    
+}
+
+.persentation_text{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+    text-align: justify;
+        padding-right: 30px;
+    border-right: black solid;
+
+}
+
+.persentation_text p{
+    color: #fff;
+    line-height: 1.6;
+}
+
+.presentation_aside{
+   float: right; 
+    width: 40%;
+    
+    margin-left: 5%;
+    
+}
+
+aside{
+    font-style: italic;
+    font-family: serif;
+    position: fixed;
+    margin: 25px;
+    padding: 25px;  
+}
+
+.img_studies{
+    display: block;
+   margin: 0 auto;
+    padding: 0 auto; 
+}
+
+.clear{
+    clear: both;
+}
